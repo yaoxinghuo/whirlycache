@@ -26,7 +26,9 @@ public class NullPolicy implements CacheMaintenancePolicy {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.whirlycott.cache.CacheMaintenancePolicy#setCache(com.whirlycott.cache.ManagedCache)
+	 * @see
+	 * com.whirlycott.cache.CacheMaintenancePolicy#setCache(com.whirlycott.cache
+	 * .ManagedCache)
 	 */
 	public void setCache(final ManagedCache _cache) {
 		// Empty
@@ -35,7 +37,9 @@ public class NullPolicy implements CacheMaintenancePolicy {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see com.whirlycott.cache.CacheMaintenancePolicy#setConfiguration(com.whirlycott.cache.CacheConfiguration)
+	 * @see
+	 * com.whirlycott.cache.CacheMaintenancePolicy#setConfiguration(com.whirlycott
+	 * .cache.CacheConfiguration)
 	 */
 	public void setConfiguration(final CacheConfiguration _configuration) {
 		// Empty
