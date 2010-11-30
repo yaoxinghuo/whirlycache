@@ -496,7 +496,7 @@ public class CacheDecorator implements Runnable, Cache {
 	 * (non-Javadoc)
 	 * 
 	 * @see com.whirlycott.cache.Cache#store(com.whirlycott.cache.Cacheable,
-	 *      java.lang.Object)
+	 * java.lang.Object)
 	 */
 	public void store(final Cacheable key, final Object value) {
 		internalStore(key, value, -1L);
@@ -507,7 +507,7 @@ public class CacheDecorator implements Runnable, Cache {
 	 * (non-Javadoc)
 	 * 
 	 * @see com.whirlycott.cache.Cache#store(com.whirlycott.cache.Cacheable,
-	 *      java.lang.Object, long)
+	 * java.lang.Object, long)
 	 */
 	public void store(final Cacheable _key, final Object _value, final long _expiresAfter) {
 		internalStore(_key, _value, _expiresAfter);
@@ -525,7 +525,7 @@ public class CacheDecorator implements Runnable, Cache {
 	 * (non-Javadoc)
 	 * 
 	 * @see com.whirlycott.cache.Cache#store(java.lang.Object, java.lang.Object,
-	 *      long)
+	 * long)
 	 */
 	public void store(final Object _key, final Object _value, final long _expiresAfter) {
 		internalStore(_key, _value, _expiresAfter);

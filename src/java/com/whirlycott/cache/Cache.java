@@ -64,12 +64,12 @@ public interface Cache {
 	/**
 	 * Store an object in the cache.
 	 * 
-	 * @param key -
-	 *            the key to retrieve the object later.
-	 * @param value -
-	 *            the object to be cached.
-	 * @param expireTime -
-	 *            milliseconds that this item should be kept in the cache
+	 * @param key
+	 *            - the key to retrieve the object later.
+	 * @param value
+	 *            - the object to be cached.
+	 * @param expireTime
+	 *            - milliseconds that this item should be kept in the cache
 	 *            (accurate to <code>tuner-sleeptime</code> seconds, as
 	 *            specified in <code>whirlycache.xml</code>.
 	 */
@@ -79,12 +79,12 @@ public interface Cache {
 	 * Store an object in the cache with a Cacheable key. The onStore() method
 	 * is execute here.
 	 * 
-	 * @param key -
-	 *            the key to retrieve the object later.
-	 * @param value -
-	 *            the object to be cached.
-	 * @param expireTime -
-	 *            milliseconds that this item should be kept in the cache
+	 * @param key
+	 *            - the key to retrieve the object later.
+	 * @param value
+	 *            - the object to be cached.
+	 * @param expireTime
+	 *            - milliseconds that this item should be kept in the cache
 	 *            (accurate to <code>tuner-sleeptime</code> seconds, as
 	 *            specified in <code>whirlycache.xml</code>.
 	 */

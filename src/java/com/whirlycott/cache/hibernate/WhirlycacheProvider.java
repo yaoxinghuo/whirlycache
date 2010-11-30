@@ -30,7 +30,7 @@ public class WhirlycacheProvider implements CacheProvider {
 	 * (non-Javadoc)
 	 * 
 	 * @see net.sf.hibernate.cache.CacheProvider#buildCache(java.lang.String,
-	 *      java.util.Properties)
+	 * java.util.Properties)
 	 */
 	public Cache buildCache(final String _name, final Properties _props) throws CacheException {
 		log.debug(Messages.getString("WhirlycacheProvider.building_cache") + _name); //$NON-NLS-1$

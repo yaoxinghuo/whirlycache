@@ -74,9 +74,9 @@ public class LFUMaintenancePolicy implements CacheMaintenancePolicy {
 					// evictee.count +
 					// ")");
 					final Object key = entry.getKey();
-					final Object val = this.managedCache.remove(key);
+					final Object val = managedCache.remove(key);
 					final Cacheable c = (Cacheable) key;
-					this.managedCache.remove(c);
+					managedCache.remove(c);
 					if (val != null && val instanceof Cacheable) {
 						c.onRemove(val);
 					}
